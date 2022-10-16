@@ -48,7 +48,7 @@ let nameD, passD, balanceD;
 nameD = document.getElementById('name');
 passD = document.getElementById('pass');
 balanceD = document.getElementById('balance');
-let homeL = "/home.html"; // link a home
+let homeL = "home.html"; // link a home
 let agregarB = false // agregar o no fondos
 let user = new User();
 
