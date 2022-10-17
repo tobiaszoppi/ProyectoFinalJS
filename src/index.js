@@ -48,7 +48,7 @@ let nameD, passD, balanceD;
 nameD = document.getElementById('name');
 passD = document.getElementById('pass');
 balanceD = document.getElementById('balance');
-let homeL = "/pages/home.html"; // link a home
+let homeL = "pages/home.html"; // link a home
 let agregarB = false // agregar o no fondos
 let user = new User();
 
@@ -105,36 +105,3 @@ function login() {
         alert('Error: nombre o contraseña no encontrados')
     }
 }
-
-/*
-let addApellidoButton = document.querySelector('#iApellido')
-addApellidoButton.addEventListener('click', addApellido)
-
-
-
-
-
-    leftToEgreso() {
-        if (this.curso < 6) {
-            let cumple = false
-            let cursoAux = 1
-            while (!cumple) {
-                if (cursoAux == this.curso) {
-                    document.getElementById(
-                        'resultado'
-                    ).innerHTML += `<div> ${this.nombre} esta cursando: ${cursoAux} </div>`
-                    cumple = true
-                } else if (cursoAux < this.curso) {
-                    document.getElementById(
-                        'resultado'
-                    ).innerHTML += `<div> ${this.nombre} ya cursó: ${cursoAux} </div>`
-                    cursoAux += 1
-                }
-            }
-        } else if (this.curso >= 6) {
-            document.getElementById(
-                'resultado'
-            ).innerHTML += `<div> ${this.nombre} está en el ultimo año! </div>`
-        }
-    }
-*/
