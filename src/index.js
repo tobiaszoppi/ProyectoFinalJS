@@ -49,7 +49,6 @@ nameD = document.getElementById('name');
 passD = document.getElementById('pass');
 balanceD = document.getElementById('balance');
 let homeL = "pages/home.html"; // link a home
-let agregarB = false // agregar o no fondos
 let user = new User();
 
 // Eventos
@@ -78,7 +77,7 @@ function obtener_LocalStorage(n) {
 }
 
 
-// Register, Login y addBalance functions
+// Register y Login
 function register() {
     console.log(balanceD.value);
     console.log(nameD.value)
