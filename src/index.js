@@ -86,11 +86,11 @@ function register() {
     if(nameD.value === '' || passD.value === '' || balanceD.value === '') {
         alert('Error: nombre, contraseña o fondos no definidas');
     } else {
+        alert('Success');
         user.editName(nameD.value);
         user.editPass(passD.value);
         user.editBalance(balanceD.value);
         guardar_LocalStorage(nameD.value);
-        alert('Success');
     }
 }
 
