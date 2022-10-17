@@ -90,6 +90,7 @@ function register() {
         user.editPass(passD.value);
         user.editBalance(balanceD.value);
         guardar_LocalStorage(nameD.value);
+        alert('Success');
     }
 }
 
